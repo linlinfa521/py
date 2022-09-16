@@ -1,3 +1,7 @@
+name: morning
+on:
+  workflow_dispatch:
+
 jobs:
   send_message:
     runs-on: ubuntu-latest
